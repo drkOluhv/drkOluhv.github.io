@@ -2,9 +2,12 @@ header:
   - title:      Home
     url:        /home/
     key:        Home
-  - title:      Samples
+  - title:      Programs
     url:        /docs/en/quick-start
-    key:        samples
+    key:        programs
+  - title:      Software
+    url:        /docs/en/quick-start
+    key:        software
   - title:      Archive
     url:        /archive.html
   - title:      About
