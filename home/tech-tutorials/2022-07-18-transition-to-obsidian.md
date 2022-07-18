@@ -36,4 +36,6 @@ pandoc --version
 6. Make sure that OneNote is open
 7. Run the code by pressing F5 or typing `python convert.py` into the terminal
 
-The .md files will be converted and exported to Desktop\OneNoteExport which can be 
+The .md files will be converted and exported to Desktop\OneNoteExport which can be placed into you Obsidian Vault folder.
+
+Special thanks to PageKey Tech for the great repository to make this conversion easy, feel free to checkout [PageKey Tech's Blog](https://pagekeytech.com).
