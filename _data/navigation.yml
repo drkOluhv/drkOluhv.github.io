@@ -2,11 +2,14 @@ header:
   - title:      Home
     url:        /home/
     key:        Home
+  - title:      Tech Tutorials
+    url:        /home/tech-tutorials
+    key:        programs
   - title:      Programs
-    url:        /docs/en/quick-start
+    url:        /home/programs
     key:        programs
   - title:      Software
-    url:        /docs/en/quick-start
+    url:        /home/software
     key:        software
   - title:      Archive
     url:        /archive.html
