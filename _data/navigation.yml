@@ -4,8 +4,8 @@ header:
     key:        Home
   - title:      Tech Tutorials
     url:        /home/tech-tutorials
-    key:        programs
-  - title:      Programs
+    key:        tech tutorials
+    title:      Programs
     url:        /home/programs
     key:        programs
   - title:      Software
