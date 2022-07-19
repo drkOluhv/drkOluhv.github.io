@@ -1,15 +1,15 @@
 header:      
   - title:      Home
     url:        /home/
-    key:        Home
+    key:        home
   - title:      Tech Tutorials
-    url:        /home/tech-tutorials
+    url:        /tech-tutorials
     key:        tech tutorials
-    title:      Programs
-    url:        /home/programs
+  - title:      Programs
+    url:        /programs
     key:        programs
   - title:      Software
-    url:        /home/software
+    url:        /software
     key:        software
   - title:      Archive
     url:        /archive.html
