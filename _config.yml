@@ -6,7 +6,7 @@ url     : https://drkOluhv.github.io  # the base hostname & protocol for your si
 baseurl : # does not include hostname
 title   : Olive Branches
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  The Collection of documented learning
 
 
 ## => Language and Timezone
@@ -169,18 +169,26 @@ permalink   : date
 
 exclude:
   - CHANGELOG.md
-  - HOW_TO_RELEASE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README-*.md
   - README.md
   - gulpfile.js
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /node_modules
-  - /vendor
+  - /_drafts
+
+collections_dir: home
+collections:
+  home:
+    output: true
+  _tech-tutorials:
+    output: true
+  _programs:
+    output: true
+  _software:
+    output: true
 
 defaults:
   ## Home
@@ -189,7 +197,7 @@ defaults:
     values:
       articles:
         excerpt_type: html
-  ## Posts
+  ## posts
   - scope:
       path: ""
       type: posts
@@ -197,47 +205,49 @@ defaults:
       layout: article
       sharing: false
       license: false
+      category: post
       aside:
-        toc: true
-      show_edit_on_github: false
-      show_subscribe: false
+        toc: false
+      show_edit_on_github: true
+      show_subscribe: true
       pageview: true
-## Tech Tutorials
+      # lightbox: true
+  ## Tech Tutorials
   - scope:
-      path: "home/tech-tutorials"
+      path: "_tech-tutorials"
     values:
       layout: article
-      nav_key: home
+      nav_key: tech tutorials
       sidebar:
-        nav: tech-tutorials
+        nav: tech tutorials
       license: false
       aside:
         toc: true
       show_edit_on_github: false
       show_date: false
       # lightbox: true
-## Programs
+  ## Programs
   - scope:
-      path: "home/programs"
+      path: "_programs"
     values:
       layout: article
-      nav_key: home
-      sidebar:
-        nav: tech-tutorials
-      license: false
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_date: false
-      # lightbox: true
-## Software
-  - scope:
-      path: "home/programs"
-    values:
-      layout: article
-      nav_key: home
+      nav_key: programs
       sidebar:
         nav: programs
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
+      # lightbox: true
+  ## Software
+  - scope:
+      path: "_software"
+    values:
+      layout: article
+      nav_key: software
+      sidebar:
+        nav: software
       license: false
       aside:
         toc: true
