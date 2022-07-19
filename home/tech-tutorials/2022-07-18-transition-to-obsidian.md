@@ -20,7 +20,7 @@ There are a few things you will need to convert your notebook to plain text. You
 
 2. Check that it's installed by running the follwing in cmd:
 
-```cmd
+  ```cmd
 pandoc --version
 ```
 
@@ -33,9 +33,11 @@ pandoc --version
 ```bash
   pip install -r requirements.txt
 ```
+
 6. Make sure that OneNote is open
+
 7. Run the code by pressing F5 or typing `python convert.py` into the terminal
 
 The .md files will be converted and exported to Desktop\OneNoteExport which can be placed into you Obsidian Vault folder.
 
-Special thanks to PageKey Tech for the great repository to make this conversion easy, feel free to checkout [PageKey Tech's Blog](https://pagekeytech.com).
+Special thanks to PageKey Tech for the great repository to make this conversion easy, feel free to checkout [PageKey Tech's Blog](https://pagekeytech.com)
