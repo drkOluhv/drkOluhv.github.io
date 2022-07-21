@@ -1,17 +1,12 @@
 header:      
   - title:      Home
-    url:        /home/
+    url:        /home
     key:        home
   - title:      Tech Tutorials
-    url:        /tech-tutorials
-    key:        tech tutorials
-  - title:      Programs
-    url:        /programs
-    key:        programs
-  - title:      Software
-    url:        /software
-    key:        software
+    url:        /tech_tutorials/OneNote-to-Obsidian
+    key:        tech_tutorials
   - title:      Archive
     url:        /archive.html
   - title:      About
     url:        /about.html
+ 
