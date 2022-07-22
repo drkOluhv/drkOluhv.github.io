@@ -3,7 +3,7 @@ header:
     url:        /home/
     key:        home
   - title:      Tech Tutorials
-    url:        /tech_tutorials/OneNote-to-Obsidian
+    url:        /tutorials.html
     key:        tech_tutorials
   - title:      Archive
     url:        /archive.html
