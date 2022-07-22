@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Transitioning from OneNote to Obsidian
 permalink: /tech_tutorials/OneNote-to-Obsidian
 key: OneNote-Obsidian

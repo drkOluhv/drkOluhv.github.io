@@ -177,17 +177,10 @@ exclude:
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /_drafts
 
 collections_dir: home
 collections:
-  home:
-    output: true
-  _tech-tutorials:
-    output: true
-  _programs:
-    output: true
-  _software:
+  tech_tutorials:
     output: true
 
 defaults:
@@ -199,7 +192,7 @@ defaults:
         excerpt_type: html
   ## posts
   - scope:
-      path: "home"
+      path: ""
       type: posts
     values:
       layout: article
@@ -214,46 +207,20 @@ defaults:
       # lightbox: true
   ## Tech Tutorials
   - scope:
-      path: "_tech-tutorials"
+      path: ""
+      type: tech_tutorials
     values:
       layout: article
-      nav_key: tech tutorials
+      nav_key: tech_tutorials
       sidebar:
-        nav: tech tutorials
+        nav: home
       license: false
       aside:
         toc: true
       show_edit_on_github: false
       show_date: false
       # lightbox: true
-  ## Programs
-  - scope:
-      path: "_programs"
-    values:
-      layout: article
-      nav_key: programs
-      sidebar:
-        nav: programs
-      license: false
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_date: false
-      # lightbox: true
-  ## Software
-  - scope:
-      path: "_software"
-    values:
-      layout: article
-      nav_key: software
-      sidebar:
-        nav: software
-      license: false
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_date: false
-      # lightbox: true
+
 
 ## => Plugins
 ##############################
