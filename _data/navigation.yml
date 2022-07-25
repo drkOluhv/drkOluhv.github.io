@@ -1,6 +1,6 @@
 header:      
   - title:      Home
-    url:        /home/
+    url:        /home
     key:        home
   - title:      Tech Tutorials
     url:        /tutorials.html
