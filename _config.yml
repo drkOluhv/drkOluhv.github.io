@@ -4,9 +4,9 @@ text_skin: "default" # "default" (default), "dark", "forest", "ocean", "chocolat
 highlight_theme: "tomorrow-night" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://drkOluhv.github.io  # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Olive Branches
+title   : Dark Olive Grove
 description: > # this means to ignore newlines until "Language & timezone"
-  The Collection of documented learning
+  Open-source Learning Portal
 
 
 ## => Language and Timezone
@@ -18,7 +18,7 @@ timezone: Australia/Sydney
 ## => Author and Social
 ##############################
 author:
-  type      : "person" # "person" (default), "organization"
+  type      : "organization" # "person" (default), "organization"
   name      : Caito
   url       :
   avatar    : /assets/apple-touch-icon.png # path or url of avatar image (square)
@@ -153,7 +153,7 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
   ## Google Analytics
   google:
