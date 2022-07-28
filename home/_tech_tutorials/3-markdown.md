@@ -1,7 +1,11 @@
-
-@drkOluhv edits
-
-# Markdown Starter Worksheet
+---
+layout: article
+title: Markdown Satarter Worksheet
+permalink: /tech_tutorials/Markdown
+key: Markdown
+tags: Markdown
+cover: 
+---
 
 The main goal of MarkDown is to be easily written and easily read.  It uses "plain text" formatting and can be converted to HTML.  The most common use case I've come across to use Markdown is for ReadMe files, used, for example, for Github repos.  Markdown can also be used to create email.
 
@@ -32,11 +36,11 @@ Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 
 # Header 1
 
-# Header 2
+## Header 2
 
-# Header 3
+### Header 3
 
-# Header 4
+#### Header 4
 
 ---
 
@@ -100,10 +104,8 @@ Create unordered lists using '-', '*', '+,
 
 Create a link by surrounding it with angle bracket <https://github.com/drkOluhv>
 
-
 Create a link with text by surrounding text with brackets, [], and link immediately following with parenthesis ()
 [GitHub](https://github.com/drkOluhv)
-
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
@@ -130,7 +132,7 @@ Ex 'Header Info' becomes header-info
 
 Defining an image is similar to defining a link, except you prefix it with '!'
 
-[profile]: https://media-exp2.licdn.com/dms/image/C4D03AQHbJ9GI79eq8Q/profile-displayphoto-shrink_200_200/0/1654062993653?e=1663200000&v=beta&t=wAbxm0SmHGZse0wwDw9XpiioqG5_DFqsZSo4rpU0cQw 
+[profile]: https://media-exp2.licdn.com/dms/image/C4D03AQHbJ9GI79eq8Q/profile-displayphoto-shrink_200_200/0/1654062993653?e=1663200000&v=beta&t=wAbxm0SmHGZse0wwDw9XpiioqG5_DFqsZSo4rpU0cQw
 
 ![Caitlyn Todd][profile]
 
@@ -148,10 +150,11 @@ Example Javascript
 ```javascript
 var num = 0;
 var num2 = 0;
-``` 
+```
+
 Example HTML
 
-```html 
+```html
 <div>
     <p>This is an html example</p>
 </div>
@@ -176,7 +179,7 @@ Tables are useful for displaying rows and columns of data.  Column headers can b
 | ----------- | ----------- | ----------- |
 | Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
 
-The column definitions and row definitions do not have to have the exact same width sizes, but it would be much more readable. 
+The column definitions and row definitions do not have to have the exact same width sizes, but it would be much more readable.
 
 | Header 1 | Header 2 |
 | ----------------| --|
@@ -192,7 +195,7 @@ Example
 
 | Header | Header 1 | Header 2  |
 | ------ | :------: | --------: |
-| Aligned Left | Aligned Center | Aligned Right | 
+| Aligned Left | Aligned Center | Aligned Right |
 
 ---
 
@@ -230,5 +233,3 @@ You can also add custom CSS to your MarkDown to add additional styling to your d
 - [MarkDown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 
 © 2022 GitHub, Inc.
-
-
