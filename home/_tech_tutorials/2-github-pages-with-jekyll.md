@@ -3,6 +3,7 @@ layout: article
 title: Build A Website with Jekyll and GitHub Pages
 permalink: /tech_tutorials/jekyll-website
 key: Jekyll-webstie
+cover: assets\images\tutorial covers\jekyll-website.png
 tags:
 - Jekyll
 - Website
@@ -23,10 +24,13 @@ Find a Jekyll theme you like, here are some different galleries to try:
 
 **Install the follwing:**
 
-[Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) Follow the instructions
-[Visual Studio Code](https://code.visualstudio.com/download)
-[Git](https://git-scm.com/downloads)
-[GitHub Desktop](https://desktop.github.com)
+- [Jekyll and Ruby on Windows](https://jekyllrb.com/docs/installation/windows/)
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+
+- [Git](https://git-scm.com/downloads)
+
+- [GitHub Desktop](https://desktop.github.com)
 
 ## Creation Steps
 
@@ -36,7 +40,7 @@ Find a Jekyll theme you like, here are some different galleries to try:
 2. Name the reporitory name as  `yourusername.github.io` and create repository from template
 3. Open GitHub Desktop got to File and Clone a repository to a local path
 4. You can now open this repository in Visual Studio Code (VS Code)
-5. In your terminal window run this command: `$ gem installer bundler` 
+5. In your terminal window run this command: `$ gem installer bundler`
 6. Open the _Gemfile_ and add the following line `gem 'github-pages', group: :jekyll_plugins`
 7. Follow the _README.md_ to ensure you customise the _config.yml_ file and setup the properties for your site as required. The _config.yml_ file is placed in the root directory
 8. To see a local preview of your site run `bundle exec jekyll serve` then visit <http://127.0.0.1:4000> to preview your site
@@ -49,10 +53,10 @@ In the settings of your site repository on Github go to pages. We want to direct
 
 You can now visit your site on <https://username.github.io>, wait a few minutes for changes to be completed. Even though you can see that within the repository that your changes have been made, it does take the site several minutes later.
 
-## Other Setup Resources
+### Other Setup Resources
 
 [Build a Jekyll development environment with VS Code & Remote Containers](https://powers-hell.com/2021/07/25/build-a-jekyll-development-environment-with-vs-code-remote-containers/)
 
-## Issue Related Resources
+### Issue Related Resources
 
 [GitHub Page Setup](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll#installing-jekyll)
