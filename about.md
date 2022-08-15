@@ -8,7 +8,7 @@ We are professionals that have a passion for teaching and sharing knowledge with
 
 Learning new skills takes time and getting the time whilst working as a professional in a narrow field it's difficult to seek direction with our learning. We provide top-notch resources for professionals applicable to multiple industries to learn new skills and broaden your interests. Weather you're lookin for professional development, personal growth, or just a fun hobby we provide what you'll need!
 
-## Specialists in
+## Specialists In
 
 - Excel Spreadsheets
 - Writting Macros and VBA
