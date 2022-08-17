@@ -3,7 +3,7 @@ layout: article
 title: Transitioning from OneNote to Obsidian
 permalink: /tech_tutorials/OneNote-to-Obsidian
 key: OneNote-Obsidian
-cover: assets\images\tutorial covers\OneNote-Obsidian.png
+cover: assets/images/tutorial covers/OneNote-Obsidian.png
 tags: 
 - OneNote
 - Obsidian

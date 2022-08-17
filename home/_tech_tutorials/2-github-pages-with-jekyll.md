@@ -3,7 +3,7 @@ layout: article
 title: Build A Website with Jekyll and GitHub Pages
 permalink: /tech_tutorials/jekyll-website
 key: Jekyll-webstie
-cover: assets\images\tutorial covers\jekyll-website.png
+cover: assets/images/tutorial covers/jekyll-website.png
 tags:
 - Jekyll
 - Website

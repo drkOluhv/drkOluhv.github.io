@@ -4,7 +4,7 @@ title: Markdown Starter Worksheet
 permalink: /tech_tutorials/Markdown
 key: Markdown
 tags: Markdown
-cover: assets\images\tutorial covers\markdown.PNG
+cover: assets/images/tutorial covers/markdown.PNG
 ---
 
 The main goal of MarkDown is to be easily written and easily read.  It uses "plain text" formatting and can be converted to HTML.  The most common use case I've come across to use Markdown is for ReadMe files, used, for example, for Github repos.  Markdown can also be used to create email.
