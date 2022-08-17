@@ -182,6 +182,8 @@ collections_dir: home
 collections:
   tech_tutorials:
     output: true
+  software:
+    output: true
 
 defaults:
   ## Home
@@ -220,6 +222,21 @@ defaults:
       show_edit_on_github: false
       show_date: false
       # lightbox: true
+  ## Software excel
+  - scope:
+      path: "_software/excel"
+    values:
+      layout: article
+      nav_key: software
+      sidebar:
+        nav: software-excel
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
+      # lightbox: true
+ 
 
 
 ## => Plugins

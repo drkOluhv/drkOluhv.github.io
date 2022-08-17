@@ -5,8 +5,16 @@ header:
   - title:      Tech Tutorials
     url:        /tutorials.html
     key:        tech_tutorials
+  - title:      Software
+    url:        /software/excel/introduction
+    key:        software
   - title:      Archive
     url:        /archive.html
   - title:      About
     url:        /about.html
  
+software:
+  - title:      Excel Basics
+    children:
+      - title:  Introduction
+        url:    /software/excel/introduction
