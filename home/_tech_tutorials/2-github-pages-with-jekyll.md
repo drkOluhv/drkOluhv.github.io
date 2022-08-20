@@ -10,9 +10,11 @@ tags:
 - GitHub Pages
 ---
 
-Creating a [Jekyll](https://jekyllrb.com) website through [GitHub  Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) allows you to customise your site. This method I go through uses Git to handle changes and you can push the source to the master branch of your username.github.io repository.
+Creating a [Jekyll](https://jekyllrb.com) website through [GitHub  Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) allows you to customise your site. This method I go through uses Git to handle changes and you can push the source to the master branch of your username.github.io repository. To be able to work thorugh this tutorial you should have a handle on working withing the space of GitHub and Visual Studio Code (VS Code).
 
-Find a Jekyll theme you like, here are some different galleries to try:
+The great thing about building a website with Jekyll is that you don't have to start from scratch but also have the flexibility to customise as you like! A Jekyll theme is basically the foundation of your site, it has the structure, look and features inbuilt depending on the theme you choose. Once you get started you can add your content and edit the website from this foundation.
+
+First find a Jekyll theme you like, here are some different galleries to try:
 
 - <http://jekyllthemes.org>
 
@@ -21,6 +23,8 @@ Find a Jekyll theme you like, here are some different galleries to try:
 - <https://jamstackthemes.dev/ssg/jekyll/>
 
 - <https://jekyll-themes.com>
+
+To be able to compelete this tutorial you'll need to install some software on your computer, these are needed to get the website started and allow you customise your content.
 
 **Install the follwing:**
 
@@ -55,7 +59,7 @@ You can now visit your site on <https://username.github.io>, wait a few minutes 
 
 ### Other Setup Resources
 
-[Build a Jekyll development environment with VS Code & Remote Containers](https://powers-hell.com/2021/07/25/build-a-jekyll-development-environment-with-vs-code-remote-containers/)
+This website is also another great resource [Build a Jekyll development environment with VS Code & Remote Containers.](https://powers-hell.com/2021/07/25/build-a-jekyll-development-environment-with-vs-code-remote-containers/)
 
 ### Issue Related Resources
 
