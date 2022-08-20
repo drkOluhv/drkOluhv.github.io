@@ -3,7 +3,7 @@ layout: article
 title: Transitioning from OneNote to Obsidian
 permalink: /tech_tutorials/OneNote-to-Obsidian
 key: OneNote-Obsidian
-cover: assets/images/tutorial covers/OneNote-Obsidian.png
+cover: assets/images/tutorial covers/OneNote-Obsidian.PNG
 tags: 
 - OneNote
 - Obsidian
@@ -21,7 +21,7 @@ There are a few things you will need to convert your notebook to plain text. You
 
 2. Check that it's installed by running the follwing in cmd:
 
-```cmd
+```text
 pandoc --version
 ```
 
