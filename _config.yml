@@ -86,7 +86,7 @@ paginate_path: /home/page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: unpkg # bootcdn (default), unpkg
 
 
 ## => Sharing
@@ -182,7 +182,7 @@ collections_dir: home
 collections:
   tech_tutorials:
     output: true
-  software:
+  excel:
     output: true
 
 defaults:
@@ -224,12 +224,13 @@ defaults:
       # lightbox: true
   ## Software excel
   - scope:
-      path: "_software/excel"
+      path: ""
+      type: excel
     values:
       layout: article
-      nav_key: software
+      nav_key: excel
       sidebar:
-        nav: software-excel
+        nav: excel
       license: false
       aside:
         toc: true

@@ -15,6 +15,14 @@ Specifically, Visual Studio Code uses the [CommonMark](http://commonmark.org/) M
 
 ## Sections
 
+Sections are defined in the code block below which when clicked takes you to that section of the document:
+
+```markdown
+[Section](#headers)
+```
+
+Here are the Sections for this page which goes through markdown's basic syntax:
+
 - [Headers](#headers)
 - [Quotes](#quotes)
 - [Emphasis](#emphasis)
@@ -34,6 +42,8 @@ Specifically, Visual Studio Code uses the [CommonMark](http://commonmark.org/) M
 
 Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 
+**Code Block Example:**
+```Markdown
 # Header 1
 
 ## Header 2
@@ -41,6 +51,7 @@ Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 ### Header 3
 
 #### Header 4
+```
 
 ---
 
@@ -48,35 +59,54 @@ Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 
 Quotes are defined by the  '>' symbol
 
+```markdown
 >This is a qutoe yaaa yeet
+```
 
-Header Quotes
+You can also have a Header Quote using '> #'
 
+```markdown
 > # This is a Header Quote
+```
 
 ---
 
 ## Emphasis
 
-Add emphasis with asterisks '*' and underscores '_'
+Add **emphasis** with asterisks '*' and underscores '_'
 Two before and after (no spaces) a section of texts
 
+```markdown
 **Bold Text with asterisks**
     OR
-**Bold Text with underscores**
+__Bold Text with underscores__
+```
 
+To *italicized* text use either '*' or '_', once before and after
+
+```markdown
  *Italicized Text with asterisks*
     OR
- *Italicized Text with underscores*
+ _Italicized Text with underscores_
+```
 
-You can do both in line.
+You can do **both** in *line*.
+
+```markdown
 This text is **bold** and this text is *italicized*
+```
+
+---
 
 ## Horizontal Rule
 
 A horizontal rule gives a visible line break.  You can create one by putting three or more hypens, asterisks, or underscores (-, *, _).
 
-Use one to keep consistent. I've used dashes here.
+Use one to keep consistent. I've used dashes on this page.
+
+```markdown
+---
+```
 
 ---
 
@@ -84,28 +114,35 @@ Use one to keep consistent. I've used dashes here.
 
 Create unordered lists using '-', '*', '+,
 
-**Favourite Shows:**
+```markdown
+- Text
+- Text
+- Text
+```
 
-- Breaking Bad
-- Upper Middle Bogan
-- Hunter X Hunter
+The code block above looks like this:
 
-**Favourite Movies:**
-
-1. Freedom Writters
-2. Whiplash
-3. Fight Club
-4. Django Unchained
-5. The Wolf of Wall Street
+- Text
+- Text
+- Text
 
 ---
 
 ## Links
 
-Create a link by surrounding it with angle bracket <https://github.com/drkOluhv>
+Create a link by surrounding it with angle bracket '<>'
 
-Create a link with text by surrounding text with brackets, [], and link immediately following with parenthesis ()
-[GitHub](https://github.com/drkOluhv)
+```markdown
+<https://www.google.com>
+```
+
+Create a link with text by surrounding text with brackets, [], and link immediately following with parenthesis (). You will only see the text in the square brackets.
+
+```markdown
+[Google](https://www.google.com)
+```
+
+Whih looks like this: [Google](https://www.google.com)
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
