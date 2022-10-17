@@ -18,3 +18,6 @@ excel:
     children:
       - title:  Introduction
         url:    /excel/introduction
+      - title:  Functions
+        url:    /excel/functions
+    
