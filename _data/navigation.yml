@@ -8,6 +8,9 @@ header:
   - title:      Excel
     url:        /excel/introduction
     key:        excel
+  - title:      Programming
+    url:        /programming.html
+    key:        programming
   - title:      Archive
     url:        /archive.html
   - title:      About
@@ -20,4 +23,13 @@ excel:
         url:    /excel/introduction
       - title:  Functions
         url:    /excel/functions
+
+python:
+  - title:      Learning Python
+    children:
+      - title:  Introduction
+        url:    /programming/python
+      - title:  Basic Exercises
+        url:    /programming/python/basic-exercises
+
     
