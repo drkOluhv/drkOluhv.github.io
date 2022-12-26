@@ -3,7 +3,7 @@ layout: article
 title: Python
 permalink: /programming/python
 key: Python
-cover: assets/images/tutorial covers/python.png
+cover: assets/images/tutorial covers/python.PNG
 tags: 
 - Programming
 - Code
