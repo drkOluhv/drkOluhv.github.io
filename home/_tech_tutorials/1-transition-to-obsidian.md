@@ -17,7 +17,7 @@ Much of my snippets are also code which is easier to integrate with Markdown fil
 
 There are a few things you will need to convert your notebook to plain text. You will have to have the Notebook stored locally, so export as required from your online files. 
 
-There are two methods of completing the conversion either using Python or Powershell. I recommend the Python Version, and if you aren't familiar with using Python yet [Get Started Here.](https://github.com/drkOluhv/drkOluhv.github.io).
+There are two methods of completing the conversion either using Python or Powershell. I recommend the Python Version, and if you aren't familiar with using Python yet [Get Started Here.](/programming/python).
 
 Otherwise if you'd like to follow the PowerShell Version read [PageKey Tech's Post](https://pagekeytech.com/blog/misc/onenote-to-markdown/) as I only go through the Python method here.
 
