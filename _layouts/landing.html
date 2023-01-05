@@ -33,6 +33,16 @@ article_header:
             <p>{{ _section.excerpt }}</p>
             {%- endif -%}
 
+            {%- if _section.email-%}
+              <ul class="menu">
+                {%- for _email in _section.email -%}
+                  {%- assign _type = _sec.type | default: 'outline-info' -%}
+                    <li><a class="button button--{{ _type }} button--pill button--lg" href="mailto:info@darkolivegrove.com" >{{ _email.text }}
+                      <i class="fas fa-envelope"></i></a></li> 
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+
             {%- if _section.actions -%}
               <ul class="menu">
               {%- for _action in _section.actions -%}
@@ -72,6 +82,16 @@ article_header:
 
                       {%- if child.excerpt-%}
                         <p>{{ child.excerpt }}</p>
+                      {%- endif -%}
+
+                      {%- if child.email-%}
+                          <ul class="menu">
+                            {%- for _email in child.email -%}
+                              {%- assign _type = _email.type | default: 'outline-info' -%}
+                                <li><a class="button button--{{ _type }} button--pill button--lg" href="mailto:info@darkolivegrove.com" >{{ _email.text }}
+                                  <i class="fas fa-envelope"></i></a></li> 
+                            {%- endfor -%}
+                          </ul>
                       {%- endif -%}
 
                       {%- if child.actions -%}
