@@ -9,7 +9,7 @@ tags:
 - Obsidian
 ---
 
-I've now started to transition from OneNote to Obsidian to store all notes as plan text Markdown files. <!--more--> This was going to help me create the posts to the website easier and something that would allow me to customise my writing and organizing. 
+I've now started to transition from OneNote to Obsidian to store all notes as plan text Markdown files. <!--more--> This was going to help me create the posts to the website easier and something that would allow me to customise my writing and organizing.
 
 Much of my snippets are also code which is easier to integrate with Markdown files. First issue was to bring across my notes in OneNote which means converting them to plain text to open into Obsidian.
 
