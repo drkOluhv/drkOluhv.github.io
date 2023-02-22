@@ -23,6 +23,9 @@ excel:
         url:    /excel/introduction
       - title:  Functions
         url:    /excel/functions
+      - title:  Name Range
+        url:    /excel/named-range
+      
 
 python:
   - title:      Learning Python
