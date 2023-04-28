@@ -34,7 +34,7 @@ Now that we have enabled the Developer tab, we can create a basic macro using VB
 3. In the Visual Basic Editor, click on "Insert" and select "Module" to create a new module.
 4. In the module window, type the following code:
 
-```vbnet
+```vbn
 Sub HelloWorld()
     MsgBox "Hello, World!"
 End Sub
