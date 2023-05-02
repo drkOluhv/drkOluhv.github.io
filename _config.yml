@@ -157,7 +157,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : UA-234907468-1 # Google Analytics id for the site
+    tracking_id : G-HPJN8ETEXG # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
