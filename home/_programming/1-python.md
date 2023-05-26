@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Python
+title: Basic Guide To Learning Python
 permalink: /programming/python
 key: Python
 cover: assets/images/tutorial covers/python.PNG

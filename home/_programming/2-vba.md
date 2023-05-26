@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Visual Basic for Applications
+title: Hoe to Use Visual Basic for Applications
 permalink: /programming/VBA
 key: VBA
 cover: assets/images/tutorial covers/vba.PNG
