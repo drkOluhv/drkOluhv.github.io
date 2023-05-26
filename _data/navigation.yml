@@ -25,6 +25,8 @@ excel:
         url:    /excel/functions
       - title:  Name Range
         url:    /excel/named-range
+      - title:  Conditional Formatting
+        url:    /excel/conditional-formatting
       
 
 python:
