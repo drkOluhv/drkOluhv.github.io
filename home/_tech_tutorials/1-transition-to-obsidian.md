@@ -25,7 +25,7 @@ Otherwise if you'd like to follow the PowerShell Version read [PageKey Tech's Po
 
 1. Install [Pandoc](https://pandoc.org/installing.html)
 
-2. Check that it's installed by running the following in cmd:
+2. Check that it's installed by running the following in command prompt:
 
 ```text
 pandoc --version
@@ -33,13 +33,19 @@ pandoc --version
 
 3. Clone the PageKey Tech's repository [onenote-to-markdown](https://github.com/pagekeysolutions/onenote-to-markdown)
 
-4. Clone the repository in GitHub Desktop somewhere locally and open **convert.py**
+![CloneOneNote](/assets/images/clone-snippet.png)
+
+4. Clone the repository in GitHub Desktop somewhere locally and open **convert.py** in visual studio code
+
+![CloneLocal](/assets/images/clone-repo.png)
+
 
 5. In the terminal, run the following
 
 ```bash
   pip install -r requirements.txt
 ```
+![installRequirements](/assets/images/install-req.png)
 
 6. Make sure that OneNote is open on your computer
 
