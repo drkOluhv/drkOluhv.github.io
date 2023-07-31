@@ -45,9 +45,9 @@ On the left you can see our options to either create a new note or create a sub-
 
 ## Creating Links
 
-To link notes in Obsidian their defined by two encapsulating square brackets **[[]]** Here I've typed **[[Markdown]]** and clicking on the link will create the note Markdown for me.
+To link notes in Obsidian their defined by two encapsulating square brackets **[[]]** Above I've typed **[[Markdown]]** and clicking on the link will create the note Markdown for me.
 
-When using typing **[[]]** Obsidian will give you options to link to existing notes and also headings within that said note. As you're editing your links, Obsidian will population options that are available in your current vault.
+When typing **[[]]** Obsidian will give you options to link to existing notes and also headings within that said note. As you're editing your links, Obsidian will population options that are available in your current vault.
 
 ![Note](/assets/images/obsidian/link.png)
 
