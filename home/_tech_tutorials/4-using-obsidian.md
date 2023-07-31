@@ -1,7 +1,7 @@
 ---
 layout: article
 title: How to Use Obsidian
-permalink: /tech_tutorials/Using-Obsidian
+permalink: /tech_tutorials/using-obsidian
 key: Obsidian
 cover: assets/images/tutorial covers/obsidian.png
 tags: 
