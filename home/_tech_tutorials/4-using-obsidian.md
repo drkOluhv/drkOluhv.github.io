@@ -17,7 +17,7 @@ One of the main reasons people like Obsidian is because it operates in Markdown 
 
 ## Getting Started
 
-1. Fist download Obsidian https://obsidian.md
+1. Fist download Obsidian [here](https://obsidian.md)
 
 When opening Obsidian you have a few options:
 
@@ -35,7 +35,7 @@ A vault is basically where all your notes will be stored. If you have Markdown f
 
 3. Click "Create new file" and this will start a new note.
 
-Here we have given it a heading of `Introduction` and you can see now that that the filename of the note matches our heading.
+Here we have given it a heading of **Introduction** and you can see now that that the filename of the note matches our heading.
 
 On the right you can see the preview mode icon this is used to toggle between editing and preview mode. Currently we are looking at the note in edit mode.
 
@@ -45,9 +45,9 @@ On the left you can see our options to either create a new note or create a sub-
 
 ## Creating Links
 
-To link notes in Obsidian their defined by two encapsulating square brackets `[[]]` Here I've typed `[[Markdown]]` and clicking on the link will create the note Markdown for me.
+To link notes in Obsidian their defined by two encapsulating square brackets **[[]]** Here I've typed **[[Markdown]]** and clicking on the link will create the note Markdown for me.
 
-When using typing `[[]]` Obsidian will give you options to link to existing notes and also headings within that said note. As you're editing your links, Obsidian will population options that are available in your current vault.
+When using typing **[[]]** Obsidian will give you options to link to existing notes and also headings within that said note. As you're editing your links, Obsidian will population options that are available in your current vault.
 
 ![Note](/assets/images/obsidian/link.png)
 
@@ -58,7 +58,7 @@ To help with editing and viewing your notes we can split the tabs either right o
 1. Right click on the tab
 2. Select either split right or split down
 3. Change the other tab to the preview by clicking the toggle
-4. Right click on this tab and click `link with tab...` and click back to the note you were editing
+4. Right click on this tab and click **link with tab...** and click back to the note you were editing
 
 This will keep both tabs connected so when you go to edit a different note you don't have to open another tab.
 
@@ -80,11 +80,11 @@ You can attach images, audio or PDFs to your notes in three of the following way
 
 ### Change Attachment Location
 
-By default attachments will be saved in the root of your vault folder. You can either change this in `Settings>Files & Links>Default location for new attachments`
+By default attachments will be saved in the root of your vault folder. You can either change this in **Settings>Files & Links>Default location for new attachments**
 
 ![Attachment Location](/assets/images/obsidian/attachment-location.png)
 
-Alternatively, you can create a folder right click on it and select `Set as attachment folder`
+Alternatively, you can create a folder right click on it and select **Set as attachment folder**
 
 ![Set Attachments](/assets/images/obsidian/set-attachments.png)
 
@@ -94,17 +94,17 @@ So now if I drag and drop an image into my notes it will save within this folder
 
 ## Embed Internal Links
 
-To embed a file type an exclamation mark following by two enclosed square brackets `![[]]` this can be a multitude of files such as:
+To embed a file type an exclamation mark following by two enclosed square brackets **![[]]** this can be a multitude of files such as:
 
 - Images
 - Notes
 - Audio
 - PDFs
-- Lists (Needs a block identifier `^`)
+- Lists (Needs a block identifier **^**)
 
 ## Embed External Links
 
-Similar to internal links Obsidian also supports external embedded links in your notes by using Markdown syntax of an exclamation mark following a square enclosed bracket, then the URL of the webpage in enclosed round brackets `![](URL)`
+Similar to internal links Obsidian also supports external embedded links in your notes by using Markdown syntax of an exclamation mark following a square enclosed bracket, then the URL of the webpage in enclosed round brackets **![](URL)**
 
 ![External Link](/assets/images/obsidian/external-link.png)
 
@@ -114,14 +114,14 @@ Obsidian has a variety of both core and community plugins to enhance your note-t
 
 **To add core plugins:**
 
-1. Click `Settings>Core Plugins` and here you can turn on any core plugins to your liking.
+1. Click **Settings>Core Plugins** and here you can turn on any core plugins to your liking.
 
 **To add community plugins:**
 
-1. Click `Settings>Community Plugins`
+1. Click **Settings>Community Plugins**
 2. Select Turn on community plugins
 3. Turn off Restricted mode
-4. Click `Browse` to list the ones avaliable
+4. Click **Browse** to list the ones avaliable
 
 Some recommended plugins to explore if they suit your functionality:
 
