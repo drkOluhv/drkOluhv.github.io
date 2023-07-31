@@ -53,8 +53,10 @@ pandoc --version
 
 The .md files will be converted and exported to Desktop\OneNoteExport which can be placed into you Obsidian Vault folder.
 
-Special thanks to PageKey Tech for the great repository to make this conversion easy, feel free to checkout [PageKey Tech's Blog](https://pagekeytech.com)
-
 ## Learn How to Use Obsidian
 
 [Tech Tutorial Guide - How To Use Obsidian](/tech_tutorials/using-obsidian)
+
+---
+
+*Special thanks to PageKey Tech for the great repository to make this conversion easy, feel free to checkout* [PageKey Tech's Blog](https://pagekeytech.com)
