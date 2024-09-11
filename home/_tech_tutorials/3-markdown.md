@@ -169,9 +169,7 @@ Ex 'Header Info' becomes header-info
 
 Defining an image is similar to defining a link, except you prefix it with '!'
 
-[profile]: https://media-exp2.licdn.com/dms/image/C4D03AQHbJ9GI79eq8Q/profile-displayphoto-shrink_200_200/0/1654062993653?e=1663200000&v=beta&t=wAbxm0SmHGZse0wwDw9XpiioqG5_DFqsZSo4rpU0cQw
-
-![Caitlyn Todd][profile]
+![Image](https://images.unsplash.com/photo-1579159278991-f698b0667a16?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
